@@ -1,0 +1,27 @@
+{
+  "name": "kurdish-nicknames",
+  "version": "1.0.0",
+  "description": "Kurdish (Kurmanji) nicknames generator with their meanings in English ",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JagarYousef/kurdish-nicknames.git"
+  },
+  "keywords": [
+    "Kurdish",
+    "nicknames",
+    "generator",
+    "meanings",
+    "Kurmanji",
+    "usernames"
+  ],
+  "author": "Jagar Yousef <jagar.yousef@gmail.com> (https://jagar.me)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JagarYousef/kurdish-nicknames/issues"
+  },
+  "homepage": "https://github.com/JagarYousef/kurdish-nicknames#readme"
+}
