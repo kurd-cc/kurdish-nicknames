@@ -1,5 +1,5 @@
 # kurdish-nicknames <br>
-Kurdish nicknames generator generates high quality Kurdish (Kurmanji) nicknames for both genders and their meanings in English.<br>
+Kurdish nicknames generator package that generates high quality Kurdish (Kurmanji) nicknames for both genders and their meanings in English.<br>
 https://www.npmjs.com/package/kurdish-nicknames
 <br>
 
