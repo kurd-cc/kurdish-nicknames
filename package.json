@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Kurdish (Kurmanji) nicknames generator with their meanings in English ",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "mocha"
   },
@@ -23,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/JagarYousef/kurdish-nicknames/issues"
   },
-  "homepage": "https://github.com/JagarYousef/kurdish-nicknames#readme"
+  "homepage": "https://github.com/JagarYousef/kurdish-nicknames#readme",
+  "devDependencies": {
+    "mocha": "^9.1.2"
+  }
 }
