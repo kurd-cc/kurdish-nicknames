@@ -1,6 +1,6 @@
 {
   "name": "kurdish-nicknames",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Kurdish (Kurmanji) nicknames generator with their meanings in English ",
   "main": "index.js",
   "type": "module",
