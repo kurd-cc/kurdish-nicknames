@@ -35,15 +35,12 @@ export class KurdishNicknames {
 function getName(gender, max_length){
     let f_name_item = {}
     let l_name_item = {}
-    let result = {first_name: "", last_name: "", first_name_meaning: "", last_name_meaning: "", gender: gender}
+    let current_gender = gender === "both" ? getRandom(["male", "female", "both"]) : getRandom([gender, "both"])
+    let result = {first_name: "", last_name: "", first_name_meaning: "", last_name_meaning: "", gender: current_gender}
 
-    if (gender !== "both"){
-        f_name_item = getRandom(first_names.filter((name) => (name.gender === gender || name.gender === "both") && name.name.length <= max_length))
-        l_name_item = getRandom(last_names.filter((name) => (name.gender === gender || name.gender === "both") && name.name.length <= max_length))
-    }else {
-        f_name_item = getRandom(first_names.filter((name) => (name.gender === result.gender || name.gender === "both") && name.name.length <= max_length))
-        l_name_item = getRandom(last_names.filter((name) => (name.gender === result.gender || name.gender === "both") && name.name.length <= max_length))
-    }
+
+    f_name_item = getRandom(first_names.filter((name) => (name.gender === current_gender) && name.name.length <= max_length))
+    l_name_item = getRandom(last_names.filter((name) => (name.gender === current_gender) && name.name.length <= max_length))
 
     if (f_name_item.name === l_name_item.name){
         return getName(gender, max_length)
